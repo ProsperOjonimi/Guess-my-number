@@ -131,7 +131,7 @@ h1 {
     font-size: 45%;
   }
 }
-@media (max-width: 25.9375em) {
+@media (max-width: 28.875em) {
   html {
     font-size: 42%;
   }
@@ -144,6 +144,17 @@ h1 {
     align-items: center;
     flex-direction: column;
     padding-top: 8rem;
+  }
+  .right {
+    text-align: center;
+  }
+  .left {
+    padding-bottom: 1rem;
+  }
+}
+@media (max-width: 25.9375em) {
+  html {
+    font-size: 42%;
   }
   .right {
     text-align: center;
